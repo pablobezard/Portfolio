@@ -23,7 +23,7 @@ const Projects = () => {
       title: 'OffiCoffee',
       description: 'Trabajo integrador de Educacion IT HTML y CSS',
       image: cofe,
-      link: 'https://trabajo-integrador-modulo-html-css.vercel.app/',
+      link: 'https://pablobezard.github.io/',
     },
     {
       id: 3,
