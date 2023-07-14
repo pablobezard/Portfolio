@@ -1,15 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.77061e95.css",
-    "main.js": "/Portfolio/static/js/main.36cfac53.js",
+    "main.js": "/Portfolio/static/js/main.03ce45c7.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/nucbafest.png": "/Portfolio/static/media/nucbafest.4aab799600393b56297b.png",
+    "static/media/Coffe.png": "/Portfolio/static/media/Coffe.49e6291d261951cd56c5.png",
+    "static/media/page5.png": "/Portfolio/static/media/page5.551fcfbdacb8acb2c96c.png",
+    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.702ca133d5115cea01af.png",
+    "static/media/page7.png": "/Portfolio/static/media/page7.ffd41b57f230d33f82ac.png",
+    "static/media/page3.png": "/Portfolio/static/media/page3.b77717a51efb5d52dd6b.png",
+    "static/media/page6.png": "/Portfolio/static/media/page6.b14db36626f70884b7e7.png",
+    "static/media/pizza.jpeg": "/Portfolio/static/media/pizza.34721fb79071b7ea5b07.jpeg",
+    "static/media/Gato.jpeg": "/Portfolio/static/media/Gato.b6c1b80c9139fe01c006.jpeg",
+    "static/media/animeBoyLaptop.jpeg": "/Portfolio/static/media/animeBoyLaptop.29d13f4855e9bb884714.jpeg",
+    "static/media/pc.jpeg": "/Portfolio/static/media/pc.7939807df5a410833de9.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.77061e95.css.map": "/Portfolio/static/css/main.77061e95.css.map",
-    "main.36cfac53.js.map": "/Portfolio/static/js/main.36cfac53.js.map",
+    "main.03ce45c7.js.map": "/Portfolio/static/js/main.03ce45c7.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77061e95.css",
-    "static/js/main.36cfac53.js"
+    "static/js/main.03ce45c7.js"
   ]
 }
