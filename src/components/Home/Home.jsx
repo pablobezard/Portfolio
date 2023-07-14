@@ -28,6 +28,8 @@ const Home = () => {
           <p className="description">
             I specialize in creating modern and engaging web applications with a focus on usability and user experience.
           </p>
+        
+            <img src={pc} alt="Image 3" className="gallery-image" />
         </div>
         <div className="image-container">
           <motion.img
@@ -59,8 +61,8 @@ const Home = () => {
           </div>
           <div className="image-gallery">
             <img src={gatoImage} alt="Image 2" className="gallery-image" />
-            <img src={pizza} alt="Image 1" className="gallery-image" />
-            <img src={pc} alt="Image 3" className="gallery-image" />
+            <img src={gatoImage} alt="Image 1" className="gallery-image" />
+            <img src={gatoImage} alt="Image 3" className="gallery-image" />
           </div>
         </motion.div>
       </div>
