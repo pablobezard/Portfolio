@@ -1,0 +1,77 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo_card {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  margin: 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  transform: scale(1.05);
+}
+
+.container .card .imbx {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.container .card .imbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container .card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.container .card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
