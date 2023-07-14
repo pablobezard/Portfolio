@@ -1,6 +1,10 @@
 import React from 'react';
 import './home.css';
 import { motion } from 'framer-motion';
+import gatoImage from '../../assets/images/Gato.jpeg';
+import pizza from '../../assets/images/pizza.jpeg'
+import pc from '../../assets/images/pc.jpeg'
+import myPhoto from '../../assets/images/myPhoto.png'
 
 const Home = () => {
   return (
@@ -27,7 +31,7 @@ const Home = () => {
         </div>
         <div className="image-container">
           <motion.img
-            src="/images/myPhoto.png"
+            src={myPhoto}
             alt="Mi Foto"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -54,9 +58,9 @@ const Home = () => {
             </p>
           </div>
           <div className="image-gallery">
-            <img src="/images/Gato.jpeg" alt="Image 2" className="gallery-image" />
-            <img src="/images/pizza.jpeg" alt="Image 1" className="gallery-image" />
-            <img src="/images/pc.jpeg" alt="Image 3" className="gallery-image" />
+            <img src={gatoImage} alt="Image 2" className="gallery-image" />
+            <img src={pizza} alt="Image 1" className="gallery-image" />
+            <img src={pc} alt="Image 3" className="gallery-image" />
           </div>
         </motion.div>
       </div>

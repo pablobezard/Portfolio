@@ -1,6 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './projects.css';
+import nucba from '../../assets/images/nucbafest.png'
+import cofe from '../../assets/images/Coffe.png'
+import page3 from '../../assets/images/page3.png'
+import page4 from '../../assets/images/page5.png'
+import page5 from '../../assets/images/page6.png'
+import page6 from '../../assets/images/page7.png'
+
 
 const Projects = () => {
   const projects = [
@@ -8,42 +15,42 @@ const Projects = () => {
       id: 1,
       title: 'Festival Nucba',
       description: 'Trabajo de integrador de nucba en HTML y CSS',
-      image: '/images/nucbafest.png',
+      image: nucba,
       link: 'https://festivalnucba.vercel.app/',
     },
     {
       id: 2,
       title: 'OffiCoffee',
       description: 'Trabajo integrador de Educacion IT HTML y CSS',
-      image: '/images/Coffe.png',
+      image: cofe,
       link: 'https://trabajo-integrador-modulo-html-css.vercel.app/',
     },
     {
       id: 3,
       title: 'Proyecto 3',
       description: 'Descripción del proyecto 3',
-      image: '/images/page3.png',
+      image: page3,
       link: '/proyecto3',
     },
     {
       id: 4,
       title: 'Proyecto 3',
       description: 'Descripción del proyecto 3',
-      image: '/images/page7.png',
+      image: page6,
       link: '/proyecto3',
     },
     {
       id: 5,
       title: 'Proyecto 3',
       description: 'Descripción del proyecto 3',
-      image: '/images/page5.png',
+      image: page5,
       link: '/proyecto3',
     },
     {
       id: 6,
       title: 'Proyecto 3',
       description: 'Descripción del proyecto 3',
-      image: '/images/page6.png',
+      image: page4,
       link: '/proyecto3',
     },
   ];

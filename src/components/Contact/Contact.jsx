@@ -3,6 +3,7 @@ import './contact.css';
 import { motion } from 'framer-motion';
 import AnimatedCharacter from '../AnimatedCharacter/AnimatedCharacter';
 
+
 const Contact = () => {
   return (
     <motion.div

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-
+import Anime from '../../assets/images/animeBoyLaptop.jpeg'
 
 const AnimatedCharacter = () => {
     return (
@@ -13,7 +13,7 @@ const AnimatedCharacter = () => {
           exit={{ opacity: 0, y: -20 }}
         >
           <motion.img
-            src="/images/animeBoyLaptop.jpeg"
+            src={Anime}
             alt="Animated Character"
             style={{ borderRadius: '50%' }}
           />
