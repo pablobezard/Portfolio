@@ -2,7 +2,6 @@ import React from 'react';
 import './home.css';
 import { motion } from 'framer-motion';
 import gatoImage from '../../assets/images/Gato.jpeg';
-import pizza from '../../assets/images/pizza.jpeg'
 import pc from '../../assets/images/pc.jpeg'
 import myPhoto from '../../assets/images/myPhoto.png'
 

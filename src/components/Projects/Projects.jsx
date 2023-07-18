@@ -1,9 +1,10 @@
+// Project.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import './projects.css';
 import nucba from '../../assets/images/nucbafest.jpg';
 import cofe from '../../assets/images/Coffe.jpg';
-import page3 from '../../assets/images/page3.png';
+import page3 from '../../assets/images/page3.jpeg';
 import page4 from '../../assets/images/page5.png';
 import page5 from '../../assets/images/page6.png';
 import page6 from '../../assets/images/page7.png';
@@ -26,14 +27,14 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Ecommerce',
+      title: 'Encriptador',
       description: 'Descripción del proyecto 3',
       image: page3,
-      link: '/proyecto3',
+      link: 'https://pablobezard.github.io/encriptador/',
     },
     {
       id: 4,
-      title: '4',
+      title: 'Ecommerce',
       description: 'Descripción del proyecto 3',
       image: page6,
       link: '/proyecto3',
@@ -54,6 +55,10 @@ const Projects = () => {
     },
   ];
 
+  const handleProjectClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <motion.div
       className="projects-container"
@@ -72,11 +77,10 @@ const Projects = () => {
             className="project-card"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => handleProjectClick(project.link)}
           >
             <div className="phone">
-              <div className="phone-notch">
-                <div className="phone-notch-inner" />
-              </div>
+              <div className="phone-notch" />
               <div className="phone-screen">
                 <img src={project.image} alt={project.title} />
                 <div className="project-title">{project.title}</div>
