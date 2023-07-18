@@ -50,7 +50,7 @@ function App() {
         </header>
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />
