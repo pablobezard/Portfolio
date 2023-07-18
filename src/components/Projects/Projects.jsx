@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './projects.css';
-import nucba from '../../assets/images/nucbafest.png'
-import cofe from '../../assets/images/Coffe.png'
-import page3 from '../../assets/images/page3.png'
-import page4 from '../../assets/images/page5.png'
-import page5 from '../../assets/images/page6.png'
-import page6 from '../../assets/images/page7.png'
-
+import nucba from '../../assets/images/nucbafest.jpg';
+import cofe from '../../assets/images/Coffe.jpg';
+import page3 from '../../assets/images/page3.png';
+import page4 from '../../assets/images/page5.png';
+import page5 from '../../assets/images/page6.png';
+import page6 from '../../assets/images/page7.png';
 
 const Projects = () => {
   const projects = [
@@ -67,25 +66,28 @@ const Projects = () => {
         <h2 className="titulo">Mis proyectos</h2>
       </div>
       <div className="projects">
-        <ul className="container">
-          {projects.map((project) => (
-            <li key={project.id} className="card">
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <motion.div
-                  className="imbx"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <img src={project.image} alt={project.title} />
-                </motion.div>
-                <div className="content">
-                  <h2>{project.title}</h2>
-                  <p>{project.description}</p>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
+        {projects.map((project) => (
+          <motion.div
+            key={project.id}
+            className="project-card"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <div className="phone">
+              <div className="phone-notch">
+                <div className="phone-notch-inner" />
+              </div>
+              <div className="phone-screen">
+                <img src={project.image} alt={project.title} />
+                <div className="project-title">{project.title}</div>
+              </div>
+            </div>
+            <div className="content">
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </motion.div>
   );

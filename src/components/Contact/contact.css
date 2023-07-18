@@ -2,6 +2,7 @@
   text-align: center;
   margin-top: 50px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .contact h2 {
@@ -25,6 +26,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  position: relative;
 }
 
 .contact-form-container {
@@ -59,7 +61,7 @@
 }
 
 .contact-animation {
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   right: 20px;
   margin-bottom: 100px;
@@ -71,10 +73,28 @@
   height: auto;
 }
 
-.animated-character {
-  position: fixed;
+.animated-character-container {
+  position: absolute;
   bottom: 20px;
   right: 20px;
   margin-bottom: 100px;
   z-index: 2;
+}
+
+.animated-character-image {
+  width: 200px;
+  height: auto;
+}
+
+/* Agrega una media query para ajustar la posición en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column-reverse; /* Cambia la dirección de flexbox */
+    align-items: center;
+  }
+
+  .contact-animation {
+    position: static; /* Cambia a posición estática */
+    margin-bottom: 20px;
+  }
 }
