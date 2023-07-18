@@ -12,7 +12,7 @@ function Navigation() {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li>
           <Link to="/projects" className="nav-link">Projects</Link>
