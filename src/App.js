@@ -50,6 +50,7 @@ function App() {
         </header>
         <div className="content">
           <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
