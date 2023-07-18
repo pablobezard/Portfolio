@@ -23,7 +23,7 @@ const Projects = () => {
       title: 'OffiCoffee',
       description: 'Trabajo integrador de Educacion IT HTML y CSS',
       image: cofe,
-      link: 'https://pablobezard.github.io/',
+      link: 'https://pablobezard.github.io/coffee/',
     },
     {
       id: 3,
