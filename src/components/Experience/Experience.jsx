@@ -27,7 +27,7 @@ const Experience = () => {
           <div className="experience-details">
             <h3>Deeplearning.AI - Building Systems with the ChatGPT API</h3>
             <p className="experience-details"></p>
-            <p className="experience-details">Duration: January 2023 - Present</p>
+            <p className="experience-details">Duration: July 2023 - Present</p>
             <p className="experience-description">
              
             is a course where I gained advanced skills in utilizing Deep Learning Language Models (LLMs) through the ChatGPT API.
