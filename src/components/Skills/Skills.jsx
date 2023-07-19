@@ -3,8 +3,8 @@ import './skills.css';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
-  const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js', 'SQL', 'Git', 'Problem-solving', 'Teamwork', 'C#', 'phpMyAdmin'];
-  const colors = ['#FF6384', '#36A2EB', '#FFCE56','#009688', '#8BC34A', '#FF9F40', '#5919BD', '#FF4081',  '#4BC0C0', '#9966FF', '#FF5722'];
+  const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js', 'SQL', 'Git', 'Problem-solving', 'Teamwork', 'C#', 'phpMyAdmin', 'python'];
+  const colors = ['#FF6384', '#36A2EB', '#FFCE56','#009688', '#8BC34A', '#FF9F40', '#5919BD', '#FF4081',  '#4BC0C0', '#9966FF', '#FF5722', '#4453BF'];
 
   return (
     <motion.div

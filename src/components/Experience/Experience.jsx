@@ -5,6 +5,7 @@ import freenlace from '../../assets/images/Freenlace.jpeg';
 import oracle from '../../assets/images/oracle.png';
 import educacionIt from '../../assets/images/educacionIt.png'
 import ies21 from '../../assets/images/ies21.png';
+import deeplearningAI from '../../assets/images/deeplearningAI.png';
 
 const Experience = () => {
   return (
@@ -18,21 +19,20 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className="experience-items">
 
+
       <div className="experience-item">
           <div className="experience-image">
-            <img src={ies21} alt="Ies" />
+            <img src={deeplearningAI} alt="Ies" />
           </div>
           <div className="experience-details">
-            <h3>IES21 University - Systems Analysis </h3>
+            <h3>Deeplearning.AI - Building Systems with the ChatGPT API</h3>
             <p className="experience-details"></p>
-            <p className="experience-details">Duration: January 2022 - Present</p>
+            <p className="experience-details">Duration: January 2023 - Present</p>
             <p className="experience-description">
              
-During my academic journey, I acquired a comprehensive skill set in programming and computer science. I delved into various areas,
- such as programming logic utilizing pseudocode, hands-on experience with C#, development of web pages and applications using HTML, CSS, and JavaScript, 
- database management with SQL Server and phpMyAdmin, and comprehensive knowledge of data structures. Additionally, I engaged in rigorous studies in mathematical analysis,
-  probability, statistics, and ethical principles.
- These educational experiences have equipped me with a solid foundation and a professional approach to problem-solving in the field of technology. 📚📈
+            is a course where I gained advanced skills in utilizing Deep Learning Language Models (LLMs) through the ChatGPT API.
+             I learned to break down complex tasks, automate workflows, chain LLM calls, and improve the quality of generated outputs. This course also recommended having basic Python knowledge, which enabled me to leverage the API's capabilities and create customized solutions. Overall,
+             I gained the ability to design and build efficient and automated chat-based systems using the ChatGPT API.
             </p>
           </div>
         </div>
@@ -68,6 +68,27 @@ During my academic journey, I acquired a comprehensive skill set in programming 
             </p>
           </div>
         </div>
+
+
+        <div className="experience-item">
+          <div className="experience-image">
+            <img src={ies21} alt="Ies" />
+          </div>
+          <div className="experience-details">
+            <h3>IES21 University - Systems Analysis </h3>
+            <p className="experience-details"></p>
+            <p className="experience-details">Duration: January 2022 - Present</p>
+            <p className="experience-description">
+             
+        During my academic journey, I acquired a comprehensive skill set in programming and computer science. I delved into various areas,
+       such as programming logic utilizing pseudocode, hands-on experience with C#, development of web pages and applications using HTML, CSS, and JavaScript, 
+        database management with SQL Server and phpMyAdmin, and comprehensive knowledge of data structures. Additionally, I engaged in rigorous studies in mathematical analysis,
+         probability, statistics, and ethical principles.
+          These educational experiences have equipped me with a solid foundation and a professional approach to problem-solving in the field of technology. 📚📈
+            </p>
+          </div>
+        </div>
+
         <div className="experience-item">
           <div className="experience-image">
             <img src={freenlace} alt="freelance" />
@@ -84,6 +105,9 @@ During my academic journey, I acquired a comprehensive skill set in programming 
             </p>
           </div>
         </div>
+
+        
+     
     
 
         {/* Agrega más elementos de experiencia según sea necesario */}
