@@ -2,7 +2,7 @@ import React from 'react';
 import './experience.css';
 import { motion } from 'framer-motion';
 import freenlace from '../../assets/images/Freenlace.jpeg';
-import oracle from '../../assets/images/alura.pngn';
+import oracle from '../../assets/images/alura.png';
 import educacionIt from '../../assets/images/educacionIt.png'
 import ies21 from '../../assets/images/ies21.png';
 import deeplearningAI from '../../assets/images/deeplearningAI.png';
