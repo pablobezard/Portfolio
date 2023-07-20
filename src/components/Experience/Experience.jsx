@@ -2,7 +2,7 @@ import React from 'react';
 import './experience.css';
 import { motion } from 'framer-motion';
 import freenlace from '../../assets/images/Freenlace.jpeg';
-import oracle from '../../assets/images/alura.png';
+import oracle from '../../assets/images/alura.pngn';
 import educacionIt from '../../assets/images/educacionIt.png'
 import ies21 from '../../assets/images/ies21.png';
 import deeplearningAI from '../../assets/images/deeplearningAI.png';
@@ -25,7 +25,7 @@ const Experience = () => {
             <img src={deeplearningAI} alt="Ies" />
           </div>
           <div className="experience-details">
-            <h3>Deeplearning.AI - Building Systems with the ChatGPT API</h3>
+            <h3>Deeplearning.AI - LEARN GENERATIVE AI Short Courses</h3>
             <p className="experience-details"></p>
             <p className="experience-details">Duration: July 2023 - Present</p>
             <p className="experience-description">
