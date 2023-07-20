@@ -68,7 +68,7 @@ const Projects = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="titulo_card">
-        <h2 className="titulo">Mis proyectos</h2>
+        <h2 className="titulo">My projects ( in development ) </h2>
       </div>
       <div className="projects">
         {projects.map((project) => (
