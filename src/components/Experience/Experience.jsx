@@ -6,6 +6,55 @@ import oracle from '../../assets/images/alura.png';
 import educacionIt from '../../assets/images/educacionIt.png'
 import ies21 from '../../assets/images/ies21.png';
 import deeplearningAI from '../../assets/images/deeplearningAI.png';
+import nucba from '../../assets/images/nucba.png';
+
+// Definición del objeto JSON con las experiencias
+const experiences = [
+  {
+    id: 1,
+    image: deeplearningAI,
+    title: 'Deeplearning.AI - LEARN GENERATIVE AI Short Courses',
+    duration: 'July 2023 - Present',
+    description: 'Es un curso donde adquirí habilidades avanzadas en el uso de modelos de lenguaje de aprendizaje profundo (LLMs) a través de la API ChatGPT. Aprendí a descomponer tareas complejas, automatizar flujos de trabajo, encadenar llamadas LLM y mejorar la calidad de las salidas generadas. Este curso también recomendaba tener conocimientos básicos de Python, lo que me permitió aprovechar las capacidades de la API y crear soluciones personalizadas. En general, adquirí la capacidad de diseñar y construir sistemas de chat eficientes y automatizados utilizando la API ChatGPT.',
+  },
+  {
+    id: 2,
+    image: oracle,
+    title: 'G5 ONE oracle course - FrontEnd React',
+    duration: 'March 2023 - Present',
+    description: 'Como parte de mi compromiso con el crecimiento profesional, estoy tomando un curso en línea en la plataforma Alura LATAM patrocinado por ONE Oracle. Este curso se enfoca en el desarrollo web utilizando tecnologías como HTML, CSS, JavaScript, y también cubre temas adicionales como Business Model Canvas, Lean Startup y Responsive Layouts. A través de esta formación, he adquirido conocimientos en la creación de sitios web modernos y también he aprendido sobre metodologías ágiles y enfoques comerciales para el desarrollo de productos digitales. Este curso me ha permitido ampliar mi perspectiva y adquirir habilidades técnicas y de negocios para abordar proyectos web de manera efectiva. 🚀 👨‍💻',
+  },
+  {
+    id: 3,
+    image: educacionIt,
+    title: 'Educación IT course - FrontEnd React',
+    duration: 'March 2023 - Present',
+    description: 'En mi búsqueda continua de mejorar mis habilidades de programación, decidí inscribirme en un curso en línea proporcionado por Telecom Digitalers Argentina en colaboración con Educación IT. Este curso se enfoca en el desarrollo FrontEnd utilizando React y ha sido una valiosa oportunidad para adquirir conocimientos y habilidades en la creación de aplicaciones web modernas. A través de esta formación, he aprendido a construir interfaces de usuario interactivas y dinámicas utilizando tecnologías como React, HTML y CSS. Este curso ha sido fundamental para profundizar en los principios fundamentales de React y mejorar mi capacidad para crear componentes reutilizables y optimizar el rendimiento de mis aplicaciones.',
+  },
+  {
+    id: 4,
+    image: ies21,
+    title: 'IES21 University - Systems Analysis',
+    duration: 'January 2022 - Present',
+    description: 'Durante mi trayectoria académica, adquirí un conjunto completo de habilidades en programación y ciencias de la computación. Me adentré en diversas áreas, como la lógica de programación utilizando pseudocódigo, experiencia práctica con C#, desarrollo de páginas y aplicaciones web utilizando HTML, CSS y JavaScript, gestión de bases de datos con SQL Server y phpMyAdmin, y conocimiento integral de estructuras de datos. Además, me involucré en estudios rigurosos en análisis matemático, probabilidad, estadísticas y principios éticos. Estas experiencias educativas me han dotado de una base sólida y un enfoque profesional para la resolución de problemas en el campo de la tecnología. 📚📈',
+  },
+  {
+    id: 5,
+    image: nucba,
+    title: 'Nucba Course - FullStack',
+    duration: 'March 2022 - 2023',
+    description: 'Durante mi curso en Nucba, exploré el desarrollo web en el programa de FullStack. Aprendí desde los fundamentos de HTML, CSS y JavaScript hasta tecnologías avanzadas como TypeScript, Redux, Axios, i18next y DOM Router. También adquirí experiencia en bases de datos con Firebase y MongoDB, y trabajé con APIs para crear páginas dinámicas. Sin embargo, mi verdadera pasión se encuentra en el desarrollo Frontend, y seguiré enfocándome en mejorar mis habilidades en esta área. Aprovechando las oportunidades en mi universidad, continúo ampliando mi formación en otras tecnologías y explorando nuevas áreas del desarrollo web. Estoy emocionado por el futuro y las posibilidades que ofrece esta industria en constante evolución.',
+  },
+  {
+    id: 6,
+    image: freenlace,
+    title: 'Independent Web Developer | Seeking Collaborative Team Opportunities',
+    position: 'Software Developer',
+    duration: 'January 2022 - Present',
+    description: 'Actualmente trabajo como desarrollador web independiente, creando soluciones web y aplicaciones móviles. Sin embargo, estoy muy interesado en formar parte de un equipo dinámico y colaborativo, donde pueda contribuir con mis habilidades y aprender de otros profesionales. Busco establecer relaciones profesionales y establecer buenas amistades dentro del campo del desarrollo, con el objetivo de colaborar en proyectos desafiantes y gratificantes. Estoy abierto a nuevas oportunidades y emocionado de formar parte de un equipo dedicado y motivado. 💻 🌐',
+  },
+
+];
 
 const Experience = () => {
   return (
@@ -16,101 +65,22 @@ const Experience = () => {
       exit={{ opacity: 0, y: 100 }}
       transition={{ duration: 0.5 }}
     >
-      <h2>Experience</h2>
+      <h2>Experiencia</h2>
       <div className="experience-items">
-
-
-      <div className="experience-item">
-          <div className="experience-image">
-            <img src={deeplearningAI} alt="Ies" />
+        {/* Utiliza un map para recorrer el array de experiencias y mostrar cada una */}
+        {experiences.map((experience) => (
+          <div key={experience.id} className="experience-item">
+            <div className="experience-image">
+              <img src={experience.image} alt={experience.title} />
+            </div>
+            <div className="experience-details">
+              <h3>{experience.title}</h3>
+              {experience.position && <p className="experience-details">Posición: {experience.position}</p>}
+              <p className="experience-details">Duración: {experience.duration}</p>
+              <p className="experience-description">{experience.description}</p>
+            </div>
           </div>
-          <div className="experience-details">
-            <h3>Deeplearning.AI - LEARN GENERATIVE AI Short Courses</h3>
-            <p className="experience-details"></p>
-            <p className="experience-details">Duration: July 2023 - Present</p>
-            <p className="experience-description">
-             
-            is a course where I gained advanced skills in utilizing Deep Learning Language Models (LLMs) through the ChatGPT API.
-             I learned to break down complex tasks, automate workflows, chain LLM calls, and improve the quality of generated outputs. This course also recommended having basic Python knowledge, which enabled me to leverage the API's capabilities and create customized solutions. Overall,
-             I gained the ability to design and build efficient and automated chat-based systems using the ChatGPT API.
-            </p>
-          </div>
-        </div>
-
-      <div className="experience-item">
-          <div className="experience-image">
-            <img src={oracle} alt="Oracle" />
-          </div>
-          <div className="experience-details">
-            <h3> G5 ONE oracle course - FrontEnd React </h3>
-            <p className="experience-details">Duration: March 2023 - Present</p>
-            <p className="experience-description">
-            As part of my commitment to professional growth, I am taking an online course on the Alura LATAM platform sponsored by ONE Oracle.
-             This course focuses on web development using technologies such as HTML, CSS, JavaScript, and also covers additional topics like Business Model Canvas, 
-             Lean Startup, and Responsive Layouts. Through this training, I have gained knowledge in creating modern websites and have also learned about agile methodologies and business approaches to digital product development. 
-            This course has allowed me to broaden my perspective and acquire both technical and business skills to effectively tackle web projects.🚀 👨‍💻
-            </p>
-          </div>
-        </div>
-        <div className="experience-item">
-          <div className="experience-image">
-            <img src={educacionIt} alt="Educacion" />
-          </div>
-          <div className="experience-details">
-            <h3>Educación IT course - FrontEnd React</h3>
-            <p className="experience-details">Duration: March 2023 - Present</p>
-            <p className="experience-description">
-            In my continuous pursuit of improving my programming skills,
-             I decided to enroll in an online course provided by Telecom Digitalers Argentina in collaboration with Educación IT. 
-             This course focuses on FrontEnd development using React and has been a valuable opportunity to acquire knowledge and skills in building modern web applications.
-              Through this training, I have learned to build interactive and dynamic user interfaces using technologies like React, HTML, and CSS. 
-              This course has been instrumental in deepening my understanding of React's core principles and enhancing my ability to create reusable components and optimize the performance of my applications.
-            </p>
-          </div>
-        </div>
-
-
-        <div className="experience-item">
-          <div className="experience-image">
-            <img src={ies21} alt="Ies" />
-          </div>
-          <div className="experience-details">
-            <h3>IES21 University - Systems Analysis </h3>
-            <p className="experience-details"></p>
-            <p className="experience-details">Duration: January 2022 - Present</p>
-            <p className="experience-description">
-             
-        During my academic journey, I acquired a comprehensive skill set in programming and computer science. I delved into various areas,
-       such as programming logic utilizing pseudocode, hands-on experience with C#, development of web pages and applications using HTML, CSS, and JavaScript, 
-        database management with SQL Server and phpMyAdmin, and comprehensive knowledge of data structures. Additionally, I engaged in rigorous studies in mathematical analysis,
-         probability, statistics, and ethical principles.
-          These educational experiences have equipped me with a solid foundation and a professional approach to problem-solving in the field of technology. 📚📈
-            </p>
-          </div>
-        </div>
-
-        <div className="experience-item">
-          <div className="experience-image">
-            <img src={freenlace} alt="freelance" />
-          </div>
-          <div className="experience-details">
-            <h3>Independent Web Developer | Seeking Collaborative Team Opportunities</h3>
-            <p className="experience-details">Position: Software Developer</p>
-            <p className="experience-details">Duration: January 2022 - Present</p>
-            <p className="experience-description">
-              I currently work as a freelancer, creating web solutions and mobile applications.
-              However, I am highly interested in becoming part of a dynamic and collaborative team, where I can contribute my skills and learn from other professionals.
-              I seek to build professional relationships and establish good friendships within the development field, with the aim of collaborating on challenging and rewarding projects.
-              I am open to new opportunities and excited to be part of a dedicated and motivated team. 💻 🌐
-            </p>
-          </div>
-        </div>
-
-        
-     
-    
-
-        {/* Agrega más elementos de experiencia según sea necesario */}
+        ))}
       </div>
     </motion.div>
   );

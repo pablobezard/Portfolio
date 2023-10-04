@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8fbc13fe.css",
-    "main.js": "/Portfolio/static/js/main.5506cd84.js",
-    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/nucbafest.jpg": "/Portfolio/static/media/nucbafest.7ee1d62e99bb9b005d78.jpg",
-    "static/media/page5.png": "/Portfolio/static/media/page5.551fcfbdacb8acb2c96c.png",
-    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.702ca133d5115cea01af.png",
-    "static/media/page7.png": "/Portfolio/static/media/page7.ffd41b57f230d33f82ac.png",
-    "static/media/Coffe.jpg": "/Portfolio/static/media/Coffe.ca9e647dae6d742ea08c.jpg",
-    "static/media/page6.png": "/Portfolio/static/media/page6.b14db36626f70884b7e7.png",
-    "static/media/Freenlace.jpeg": "/Portfolio/static/media/Freenlace.361bb188c753bc712ed0.jpeg",
-    "static/media/Gato.jpeg": "/Portfolio/static/media/Gato.b6c1b80c9139fe01c006.jpeg",
-    "static/media/pc.jpeg": "/Portfolio/static/media/pc.7939807df5a410833de9.jpeg",
-    "static/media/animeBoyLaptop.jpeg": "/Portfolio/static/media/animeBoyLaptop.7835b17a3bb99d48fd28.jpeg",
-    "static/media/page3.jpeg": "/Portfolio/static/media/page3.ecccee318563fd4bd916.jpeg",
-    "static/media/ies21.png": "/Portfolio/static/media/ies21.da3852a219cebba9f3f4.png",
-    "index.html": "/Portfolio/index.html",
-    "main.8fbc13fe.css.map": "/Portfolio/static/css/main.8fbc13fe.css.map",
-    "main.5506cd84.js.map": "/Portfolio/static/js/main.5506cd84.js.map",
-    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.28df0105.css",
+    "main.js": "/static/js/main.46cb281e.js",
+    "static/js/787.ed4914aa.chunk.js": "/static/js/787.ed4914aa.chunk.js",
+    "static/media/nucbafest.jpg": "/static/media/nucbafest.7ee1d62e99bb9b005d78.jpg",
+    "static/media/page5.png": "/static/media/page5.551fcfbdacb8acb2c96c.png",
+    "static/media/myPhoto.png": "/static/media/myPhoto.702ca133d5115cea01af.png",
+    "static/media/page7.png": "/static/media/page7.ffd41b57f230d33f82ac.png",
+    "static/media/Coffe.jpg": "/static/media/Coffe.ca9e647dae6d742ea08c.jpg",
+    "static/media/page6.png": "/static/media/page6.b14db36626f70884b7e7.png",
+    "static/media/Freenlace.jpeg": "/static/media/Freenlace.361bb188c753bc712ed0.jpeg",
+    "static/media/Gato.jpeg": "/static/media/Gato.b6c1b80c9139fe01c006.jpeg",
+    "static/media/pc.jpeg": "/static/media/pc.7939807df5a410833de9.jpeg",
+    "static/media/animeBoyLaptop.jpeg": "/static/media/animeBoyLaptop.7835b17a3bb99d48fd28.jpeg",
+    "static/media/page3.jpeg": "/static/media/page3.ecccee318563fd4bd916.jpeg",
+    "static/media/ies21.png": "/static/media/ies21.da3852a219cebba9f3f4.png",
+    "index.html": "/index.html",
+    "main.28df0105.css.map": "/static/css/main.28df0105.css.map",
+    "main.46cb281e.js.map": "/static/js/main.46cb281e.js.map",
+    "787.ed4914aa.chunk.js.map": "/static/js/787.ed4914aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fbc13fe.css",
-    "static/js/main.5506cd84.js"
+    "static/css/main.28df0105.css",
+    "static/js/main.46cb281e.js"
   ]
 }
