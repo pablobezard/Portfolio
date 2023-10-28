@@ -7,7 +7,7 @@ import cofe from '../../assets/images/Coffe.jpg';
 import page3 from '../../assets/images/page3.jpeg';
 import page4 from '../../assets/images/page5.png';
 import page5 from '../../assets/images/page6.png';
-import page6 from '../../assets/images/page7.png';
+import page6 from '../../assets/images/Cotizador.png';
 
 const Projects = () => {
   const projects = [
@@ -34,10 +34,10 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Ecommerce',
-      description: 'Descripción del proyecto 3',
+      title: 'Cotizador de seguros',
+      description: 'Proyecto integrador de JavaScript',
       image: page6,
-      link: '/proyecto3',
+      link: 'https://cotizador-seguros-three.vercel.app/',
     },
     {
       id: 5,
