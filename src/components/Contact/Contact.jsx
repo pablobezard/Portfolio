@@ -29,7 +29,7 @@ const Contact = () => {
       exit={{ opacity: 0, x: 100 }}
       transition={{ duration: 0.5 }}
     >
-      <h2>Contacto</h2>
+      <h2>Contact</h2>
       <div className="contact-info">
         <p>Email: Pablobezard@gmail.com</p>
         <p>Teléfono: +54 3534789688</p>

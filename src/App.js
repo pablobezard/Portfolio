@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import './index.css';
+import MyWork from './components/MyWork/MyWork';
 
 function Navigation() {
   return (
@@ -15,10 +14,7 @@ function Navigation() {
           <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li>
-          <Link to="/projects" className="nav-link">Projects</Link>
-        </li>
-        <li>
-          <Link to="/skills" className="nav-link">Skills</Link>
+          <Link to="/projects" className="nav-link">My work</Link>
         </li>
         <li>
           <Link to="/experience" className="nav-link">Experience</Link>
@@ -52,8 +48,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/Projects" element={<MyWork />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
