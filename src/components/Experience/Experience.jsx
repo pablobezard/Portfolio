@@ -5,7 +5,7 @@ import freenlace from '../../assets/images/Freenlace.jpeg';
 import oracle from '../../assets/images/alura.png';
 import educacionIt from '../../assets/images/educacionIt.png'
 import ies21 from '../../assets/images/ies21.png';
-import Forage from '../../assets/Forage.png';
+import Forage from '../../assets/images/Forage.png';
 import nucba from '../../assets/images/nucba.png';
 
 // Definición del objeto JSON con las experiencias
