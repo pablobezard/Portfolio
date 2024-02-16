@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3e4342bd.css",
-    "main.js": "/Portfolio/static/js/main.8aafea8f.js",
-    "static/js/787.926b3ad3.chunk.js": "/Portfolio/static/js/787.926b3ad3.chunk.js",
+    "main.css": "/Portfolio/static/css/main.8fbc13fe.css",
+    "main.js": "/Portfolio/static/js/main.832d8ead.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/nucbafest.jpg": "/Portfolio/static/media/nucbafest.7ee1d62e99bb9b005d78.jpg",
     "static/media/page5.png": "/Portfolio/static/media/page5.551fcfbdacb8acb2c96c.png",
     "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.702ca133d5115cea01af.png",
@@ -15,14 +15,13 @@
     "static/media/animeBoyLaptop.jpeg": "/Portfolio/static/media/animeBoyLaptop.7835b17a3bb99d48fd28.jpeg",
     "static/media/page3.jpeg": "/Portfolio/static/media/page3.ecccee318563fd4bd916.jpeg",
     "static/media/ies21.png": "/Portfolio/static/media/ies21.da3852a219cebba9f3f4.png",
-    "static/media/Forage.png": "/Portfolio/static/media/Forage.52219d542e08e425ab27.png",
     "index.html": "/Portfolio/index.html",
-    "main.3e4342bd.css.map": "/Portfolio/static/css/main.3e4342bd.css.map",
-    "main.8aafea8f.js.map": "/Portfolio/static/js/main.8aafea8f.js.map",
-    "787.926b3ad3.chunk.js.map": "/Portfolio/static/js/787.926b3ad3.chunk.js.map"
+    "main.8fbc13fe.css.map": "/Portfolio/static/css/main.8fbc13fe.css.map",
+    "main.832d8ead.js.map": "/Portfolio/static/js/main.832d8ead.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e4342bd.css",
-    "static/js/main.8aafea8f.js"
+    "static/css/main.8fbc13fe.css",
+    "static/js/main.832d8ead.js"
   ]
 }
