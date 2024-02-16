@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import './index.css';
+import MyWork from './components/MyWork/MyWork';
 
-function Navigation() {
+// Cambia la función Navigation a un componente funcional
+const Navigation = () => {
   return (
     <nav className="navbar">
       <ul className="nav-links">
@@ -15,10 +15,7 @@ function Navigation() {
           <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li>
-          <Link to="/projects" className="nav-link">Projects</Link>
-        </li>
-        <li>
-          <Link to="/skills" className="nav-link">Skills</Link>
+          <Link to="/projects" className="nav-link">My work</Link>
         </li>
         <li>
           <Link to="/experience" className="nav-link">Experience</Link>
@@ -29,31 +26,30 @@ function Navigation() {
       </ul>
     </nav>
   );
-}
+};
 
-function Footer() {
+// Cambia la función Footer a un componente funcional
+const Footer = () => {
   return (
     <footer className="footer">
-      {/* Contenido del footer */}
       <p>&copy; 2023 PabloBezard. All rights reserved.</p>
     </footer>
   );
-}
+};
 
-
-function App() {
+// Cambia la función App a un componente funcional
+const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <header className="App-header">
           <Navigation />
         </header>
         <div className="content">
           <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<MyWork />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
@@ -62,6 +58,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
