@@ -1,0 +1,76 @@
+{
+    "Home": {
+      "title": "Frontend-Entwickler und Backend-Enthusiast",
+      "description": "Ich habe mich auf die Erstellung moderner und ansprechender Webanwendungen mit Schwerpunkt auf Benutzerfreundlichkeit und Benutzererfahrung spezialisiert.",
+      "aboutTitle": "Über mich",
+      "aboutText": "Grüße, ich bin Pablo Bezard, ein erfahrener Web- und Mobile-Entwickler mit einem klaren Fokus auf die Verbesserung des Designs der Benutzeroberfläche. Meine Expertise liegt darin, Ideen in nahtlose digitale Erlebnisse durch akribische Codierungs- und Designpraktiken zu übersetzen. Jenseits des digitalen Bereichs schätze ich bedeutungsvolle Verbindungen und genieße es, mit Gleichgesinnten zu sozialisieren. Ob beim Erkunden der Natur oder beim aktiven Lebensstil im Fitnessstudio, ich finde Inspiration in einem ausgewogenen Leben. Meine Hingabe zur Gestaltung außergewöhnlicher Anwendungen wird nur durch meine Begeisterung für das aktuelle technologische Geschehen übertroffen. Als Entwickler blühe ich in den Herausforderungen, die im ständig wandelnden Bereich der Web- und Mobile-Entwicklung liegen. Begleiten Sie mich auf dem Weg zur Exzellenz, während ich weiter lerne, mich anpasse und im dynamischen Technologiewelt wachse."
+    },
+    "Experience": {
+        "title": "Erfahrung",
+        "duration": "Dauer",
+        "experiences": [
+          {
+            "id": 7,
+            "image": "../../assets/images/cognizant.jpeg",
+            "title": "Simulation der fortgeschrittenen Softwaretechnik von Walmart USA - Forage",
+            "duration": "November 2023 - Dezember 2023",
+            "description": "Ich habe die Simulation der fortgeschrittenen Softwaretechnik abgeschlossen, bei der ich schwierige technische Projekte für eine Vielzahl von Teams bei Walmart gelöst habe. Ich habe eine neuartige Version einer Heap-Datenstruktur in Java für die Versandabteilung von Walmart entwickelt, was meine Fähigkeiten im Problemlösen und in der algorithmischen Fähigkeiten zeigt. Ich habe ein UML-Klassendiagramm für einen Datenprozessor entworfen, das verschiedene Betriebsarten und Datenbankverbindungen berücksichtigt. Ich habe ein Entity-Relationship-Diagramm erstellt, um eine neue Datenbank zu entwerfen, die alle Anforderungen des Haustierabteilung von Walmart berücksichtigt."
+          },
+          {
+            "id": 6,
+            "image": "../../assets/images/images.png",
+            "title": "Simulation der fortgeschrittenen Softwaretechnik von Walmart USA - Forage",
+            "duration": "November 2023 - Dezember 2023",
+            "description": "Ich habe die Simulation der fortgeschrittenen Softwaretechnik abgeschlossen, bei der ich schwierige technische Projekte für eine Vielzahl von Teams bei Walmart gelöst habe. Ich habe eine neuartige Version einer Heap-Datenstruktur in Java für die Versandabteilung von Walmart entwickelt, was meine Fähigkeiten im Problemlösen und in der algorithmischen Fähigkeiten zeigt. Ich habe ein UML-Klassendiagramm für einen Datenprozessor entworfen, das verschiedene Betriebsarten und Datenbankverbindungen berücksichtigt. Ich habe ein Entity-Relationship-Diagramm erstellt, um eine neue Datenbank zu entwerfen, die alle Anforderungen des Haustierabteilung von Walmart berücksichtigt."
+          },
+          {
+            "id": 5,
+            "image": "../../assets/images/alura.png",
+            "title": "FrontEnd React - G5 ONE oracle Kurs",
+            "duration": "März 2023 - November 2023",
+            "description": "Als Teil meines Engagements für berufliches Wachstum absolviere ich derzeit einen Online-Kurs auf der Alura LATAM-Plattform, gesponsert von ONE Oracle. Dieser Kurs konzentriert sich auf die Webentwicklung unter Verwendung von Technologien wie HTML, CSS, JavaScript und behandelt auch zusätzliche Themen wie Business Model Canvas, Lean Startup und Responsive Layouts. Im Rahmen dieses Trainings habe ich Einblicke in die Gestaltung moderner Websites gewonnen und bin in agile Methoden und Geschäftsansätze für die Entwicklung digitaler Produkte eingetaucht. Dieser Kurs hat es mir ermöglicht, meinen Horizont zu erweitern und technische und geschäftliche Fähigkeiten zu erwerben, um Webprojekte effektiv anzugehen."
+          },
+          {
+            "id": 4,
+            "image": "../../assets/images/educacionIt.png",
+            "title": "FrontEnd React - Educación IT Kurs",
+            "duration": "März 2023 - November 2023",
+            "description": "In meinem kontinuierlichen Streben nach Verbesserung meiner Programmierkenntnisse habe ich mich entschieden, mich für einen Online-Kurs von Telecom Digitalers Argentina in Zusammenarbeit mit Educación IT einzuschreiben. Dieser Kurs konzentriert sich auf die FrontEnd-Entwicklung unter Verwendung von React und war eine wertvolle Gelegenheit, Kenntnisse und Fähigkeiten im Erstellen moderner Webanwendungen zu erlangen. Durch dieses Training habe ich gelernt, interaktive und dynamische Benutzeroberflächen unter Verwendung von Technologien wie React, HTML und CSS zu erstellen. Dieser Kurs war entscheidend, um mein Verständnis der grundlegenden Prinzipien von React zu vertiefen und meine Fähigkeit zu verbessern, wiederverwendbare Komponenten zu erstellen und die Leistung meiner Anwendungen zu optimieren."
+          },
+          {
+            "id": 3,
+            "image": "../../assets/images/ies21.png",
+            "title": "Systemanalyse - Universität IES21",
+            "duration": "Januar 2022 - Heute",
+            "description": "Im Laufe meines akademischen Werdegangs habe ich umfassende Kenntnisse in Programmierung und Informatik erworben. Ich habe verschiedene Bereiche wie Programmierlogik mit Pseudocode, praktische Erfahrungen mit C#, Entwicklung von Webseiten und Anwendungen mit HTML, CSS und JavaScript, Datenbankverwaltung mit SQL Server und phpMyAdmin sowie ein umfassendes Verständnis von Datenstrukturen vertieft. Darüber hinaus habe ich mich intensiv mit mathematischer Analyse, Wahrscheinlichkeit, Statistik und ethischen Grundsätzen beschäftigt. Diese Bildungserfahrungen haben mir eine solide Grundlage und einen professionellen Ansatz zur Problemlösung im Bereich Technologie vermittelt."
+          },
+          {
+            "id": 2,
+            "image": "../../assets/images/nucba.png",
+            "title": "FullStack - Nucba Kurs",
+            "duration": "März 2022 - 2023",
+            "description": "Während meines Kurses bei Nucba habe ich mich mit der Webentwicklung im FullStack-Programm beschäftigt. Ich habe von den Grundlagen von HTML, CSS und JavaScript bis hin zu fortgeschrittenen Technologien wie TypeScript, Redux, Axios, i18next und DOM Router gelernt. Außerdem habe ich Erfahrungen in Datenbanken mit Firebase und MongoDB gesammelt und mit APIs gearbeitet, um dynamische Seiten zu erstellen. Meine wahre Leidenschaft liegt jedoch in der Frontend-Entwicklung, und ich werde weiterhin daran arbeiten, meine Fähigkeiten in diesem Bereich zu verbessern. Durch die Nutzung von Möglichkeiten an meiner Universität erweitere ich kontinuierlich meine Ausbildung in anderen Technologien und erkunde neue Bereiche der Webentwicklung. Ich freue mich auf die Zukunft und die Möglichkeiten, die diese sich ständig weiterentwickelnde Branche bietet."
+          },
+          {
+            "id": 1,
+            "image": "../../assets/images/Freenlace.jpeg",
+            "title": "Unabhängiger Webentwickler | Auf der Suche nach Teamchancen zur Zusammenarbeit",
+            "position": "Softwareentwickler",
+            "duration": "Januar 2022 - Heute",
+            "description": "Derzeit arbeite ich als unabhängiger Webentwickler und entwickle Weblösungen und mobile Anwendungen. Dennoch interessiere ich mich sehr für die Mitarbeit in einem dynamischen und kooperativen Team, in dem ich meine Fähigkeiten einbringen und von anderen Fachleuten lernen kann. Mein Ziel ist es, berufliche Beziehungen aufzubauen und gute Freundschaften im Entwicklungsbereich zu schließen, um an anspruchsvollen und lohnenden Projekten zusammenzuarbeiten. Ich bin offen für neue Möglichkeiten und freue mich darauf, Teil eines engagierten und motivierten Teams zu sein."
+          }
+        ]
+      },
+      "Contact": {
+        "title": "Kontakt",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "linkedin": "LinkedIn",
+        "name": "Name",
+        "emailPlaceholder": "E-Mail",
+        "messagePlaceholder": "Nachricht",
+        "emailPrefix": "E-Mail",
+        "messagePrefix": "Nachricht",
+        "send": "Senden"
+      }
+    }

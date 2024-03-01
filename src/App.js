@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-ro
 import Home from './components/Home/Home';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
-import './index.css';
 import MyWork from './components/MyWork/MyWork';
+import LanguageSelector from './components/LanguageSelector/LanguageSelector'; // Importa el componente LanguageSelector
+import './index.css';
 
-// Cambia la función Navigation a un componente funcional
 const Navigation = () => {
   return (
     <nav className="navbar">
@@ -23,12 +23,14 @@ const Navigation = () => {
         <li>
           <Link to="/contact" className="nav-link">Contact</Link>
         </li>
+        <li>
+          <LanguageSelector />
+        </li>
       </ul>
     </nav>
   );
 };
 
-// Cambia la función Footer a un componente funcional
 const Footer = () => {
   return (
     <footer className="footer">
@@ -37,7 +39,6 @@ const Footer = () => {
   );
 };
 
-// Cambia la función App a un componente funcional
 const App = () => {
   return (
     <Router basename={process.env.PUBLIC_URL}>

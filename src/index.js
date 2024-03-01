@@ -8,11 +8,23 @@ import i18next from 'i18next';
 
 import global_en from './translations/en/global.json';
 import global_es from './translations/es/global.json';
-import global_do from './translations/do/global.json';
+import global_de from './translations/de/global.json';
 
 i18next.init({
-  interpolation: {escapeValue: false},
-});  
+  interpolation: { escapeValue: false },
+  lng: 'en', 
+  resources: {
+    en: {
+      global: global_en
+    },
+    es: {
+      global: global_es
+    },
+    de: {
+      global: global_de
+    }
+  }
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +35,5 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

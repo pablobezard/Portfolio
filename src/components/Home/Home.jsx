@@ -1,11 +1,16 @@
 import React from 'react';
 import './home.css';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+
 import gatoImage from '../../assets/images/Gato.jpeg';
 import pc from '../../assets/images/pc.jpeg';
 import myPhoto from '../../assets/images/myPhoto.png';
 
 const Home = () => {
+  const { t } = useTranslation('global');
+
+  
   return (
     <motion.div
       className="home"
@@ -22,10 +27,10 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Frontend Developer and Backend Enthusiast
+            {t('Home.title')}
           </motion.h1>
           <p className="description">
-            I specialize in creating modern and engaging web applications with a focus on usability and user experience.
+            {t('Home.description')}
           </p>
           <img src={pc} alt="Workstation" className="gallery-image" />
         </div>
@@ -46,23 +51,12 @@ const Home = () => {
           whileHover={{ scale: 1.1, boxShadow: '0 5px 20px rgba(0, 0, 0, 0.2)' }}
           whileTap={{ scale: 0.9 }}
         >
-          <h2>About me</h2>
+          <h2>{t('Home.aboutTitle')}</h2>
           <div className="card-content">
             <p>
-              Greetings, I'm Pablo Bezard, a seasoned web and mobile developer with a keen focus on elevating user interface design. My expertise lies in translating ideas into seamless digital experiences through meticulous coding and design practices.
+              {t('Home.aboutText')}
             </p>
-
-            <p>
-              Beyond the digital realm, I value meaningful connections and enjoy socializing with peers. Whether it's exploring the outdoors or maintaining an active lifestyle at the gym, I find inspiration in a balanced life. 🌳
-            </p>
-
-            <p>
-              My dedication to crafting exceptional applications is matched only by my enthusiasm for staying abreast of the latest technological trends. As a developer, I thrive on the challenges inherent in the ever-evolving landscape of web and mobile development.
-            </p>
-
-            <p>
-              Join me in the pursuit of excellence as I continue to learn, adapt, and grow in the dynamic world of technology. 🚀🌐
-            </p>
+            {/* Aquí puedes continuar con más contenido traducible */}
           </div>
           <div className="image-gallery">
             <img src={gatoImage} alt="Cute Cat" className="gallery-image" />

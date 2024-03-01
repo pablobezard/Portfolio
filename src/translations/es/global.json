@@ -1,0 +1,77 @@
+{
+    "Home": {
+      "title": "Desarrollador Frontend y Entusiasta del Backend",
+      "description": "Me especializo en crear aplicaciones web modernas y atractivas con un enfoque en la usabilidad y la experiencia del usuario.",
+      "aboutTitle": "Sobre mí",
+      "aboutText": "Saludos, soy Pablo Bezard, un desarrollador web y móvil experimentado con un enfoque en mejorar el diseño de la interfaz de usuario. Mi experiencia radica en traducir ideas en experiencias digitales perfectas a través de prácticas de codificación y diseño meticulosas. Más allá del ámbito digital, valoro las conexiones significativas y disfruto socializar con mis pares. Ya sea explorando la naturaleza o manteniendo un estilo de vida activo en el gimnasio, encuentro inspiración en una vida equilibrada. Mi dedicación a crear aplicaciones excepcionales solo es igualada por mi entusiasmo por mantenerme al tanto de las últimas tendencias tecnológicas. Como desarrollador, prospero en los desafíos inherentes al paisaje en constante evolución del desarrollo web y móvil. Únete a mí en la búsqueda de la excelencia mientras sigo aprendiendo, adaptándome y creciendo en el dinámico mundo de la tecnología."
+    },
+
+    "Experience": {
+        "title": "Experiencia",
+        "duration": "Duración",
+        "experiences": [
+          {
+            "id": 7,
+            "image": "../../assets/images/cognizant.jpeg",
+            "title": "Simulación de Ingeniería de Software Avanzada de Walmart USA - Forage",
+            "duration": "Noviembre de 2023 - Diciembre de 2023",
+            "description": "Completé la Simulación de Trabajo de Ingeniería de Software Avanzada donde resolví proyectos técnicos difíciles para una variedad de equipos en Walmart. Desarrollé una versión novedosa de una estructura de datos de montón en Java para el departamento de envíos de Walmart, mostrando habilidades sólidas de resolución de problemas y algorítmicas. Diseñé un diagrama de clases UML para un procesador de datos, considerando diferentes modos de operación y conexiones de base de datos. Creé un diagrama de relación de entidades para diseñar una nueva base de datos que contemple todos los requisitos proporcionados por el departamento de mascotas de Walmart."
+          },
+          {
+            "id": 6,
+            "image": "../../assets/images/images.png",
+            "title": "Simulación de Ingeniería de Software Avanzada de Walmart USA - Forage",
+            "duration": "Noviembre de 2023 - Diciembre de 2023",
+            "description": "Completé la Simulación de Trabajo de Ingeniería de Software Avanzada donde resolví proyectos técnicos difíciles para una variedad de equipos en Walmart. Desarrollé una versión novedosa de una estructura de datos de montón en Java para el departamento de envíos de Walmart, mostrando habilidades sólidas de resolución de problemas y algorítmicas. Diseñé un diagrama de clases UML para un procesador de datos, considerando diferentes modos de operación y conexiones de base de datos. Creé un diagrama de relación de entidades para diseñar una nueva base de datos que contemple todos los requisitos proporcionados por el departamento de mascotas de Walmart."
+          },
+          {
+            "id": 5,
+            "image": "../../assets/images/alura.png",
+            "title": "FrontEnd React - Curso G5 ONE oracle",
+            "duration": "Marzo de 2023 - Noviembre de 2023",
+            "description": "Como parte de mi compromiso con el crecimiento profesional, actualmente estoy realizando un curso en línea en la plataforma Alura LATAM, patrocinado por ONE Oracle. Este curso se centra en el desarrollo web utilizando tecnologías como HTML, CSS, JavaScript, y también cubre temas adicionales como Business Model Canvas, Lean Startup y Responsive Layouts. A lo largo de esta capacitación, he adquirido ideas para crear sitios web modernos y he profundizado en metodologías ágiles y enfoques empresariales para el desarrollo de productos digitales. Este curso me ha permitido ampliar mi perspectiva y adquirir habilidades técnicas y empresariales para abordar de manera efectiva proyectos web."
+          },
+          {
+            "id": 4,
+            "image": "../../assets/images/educacionIt.png",
+            "title": "FrontEnd React - Curso Educación IT",
+            "duration": "Marzo de 2023 - Noviembre de 2023",
+            "description": "En mi búsqueda continua por mejorar mis habilidades de programación, decidí inscribirme en un curso en línea proporcionado por Telecom Digitalers Argentina en colaboración con Educación IT. Este curso se centra en el desarrollo FrontEnd utilizando React y ha sido una oportunidad valiosa para adquirir conocimientos y habilidades en la creación de aplicaciones web modernas. A través de esta capacitación, he aprendido a construir interfaces de usuario interactivas y dinámicas utilizando tecnologías como React, HTML y CSS. Este curso ha sido fundamental para profundizar mi comprensión de los principios fundamentales de React y mejorar mi capacidad para crear componentes reutilizables y optimizar el rendimiento de mis aplicaciones."
+          },
+          {
+            "id": 3,
+            "image": "../../assets/images/ies21.png",
+            "title": "Análisis de Sistemas - Universidad IES21",
+            "duration": "Enero de 2022 - Presente",
+            "description": "A lo largo de mi trayectoria académica, adquirí un conjunto integral de habilidades en programación y ciencias de la computación. Me adentré en diversas áreas, como la lógica de programación utilizando pseudocódigo, la experiencia práctica con C#, el desarrollo de páginas web y aplicaciones utilizando HTML, CSS y JavaScript, la gestión de bases de datos con SQL Server y phpMyAdmin, y una comprensión integral de las estructuras de datos. Además, me involucré en estudios rigurosos en análisis matemático, probabilidad, estadística y principios éticos. Estas experiencias educativas me han proporcionado una base sólida y un enfoque profesional para la resolución de problemas en el campo de la tecnología."
+          },
+          {
+            "id": 2,
+            "image": "../../assets/images/nucba.png",
+            "title": "FullStack - Curso Nucba",
+            "duration": "Marzo de 2022 - 2023",
+            "description": "Durante mi curso en Nucba, exploré el desarrollo web en el programa FullStack. Aprendí desde los conceptos básicos de HTML, CSS y JavaScript hasta tecnologías avanzadas como TypeScript, Redux, Axios, i18next y DOM Router. También adquirí experiencia en bases de datos con Firebase y MongoDB, y trabajé con APIs para crear páginas dinámicas. Sin embargo, mi verdadera pasión reside en el desarrollo Frontend, y seguiré enfocándome en mejorar mis habilidades en esta área. Aprovechando las oportunidades en mi universidad, continúo ampliando mi educación en otras tecnologías y explorando nuevas áreas del desarrollo web. Estoy emocionado por el futuro y las posibilidades que ofrece esta industria en constante evolución."
+          },
+          {
+            "id": 1,
+            "image": "../../assets/images/Freenlace.jpeg",
+            "title": "Desarrollador Web Independiente | Buscando Oportunidades en Equipos Colaborativos",
+            "position": "Desarrollador de Software",
+            "duration": "Enero de 2022 - Presente",
+            "description": "Actualmente, trabajo como desarrollador web independiente, creando soluciones web y aplicaciones móviles. Sin embargo, estoy muy interesado en unirme a un equipo dinámico y colaborativo donde pueda contribuir con mis habilidades y aprender de otros profesionales. Mi objetivo es construir relaciones profesionales y formar buenas amistades dentro del campo del desarrollo, con el objetivo de colaborar en proyectos desafiantes y gratificantes. Estoy abierto a nuevas oportunidades y emocionado de ser parte de un equipo dedicado y motivado."
+          }
+        ]
+      },
+      "Contact": {
+        "title": "Contacto",
+        "email": "email",
+        "phone": "teléfono",
+        "linkedin": "linkedin",
+        "name": "Nombre",
+        "emailPlaceholder": "Email",
+        "messagePlaceholder": "Mensaje",
+        "emailPrefix": "Email",
+        "messagePrefix": "Mensaje",
+        "send": "Enviar"
+      }
+    }
