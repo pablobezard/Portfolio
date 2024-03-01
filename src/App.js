@@ -1,27 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import MyWork from './components/MyWork/MyWork';
 import LanguageSelector from './components/LanguageSelector/LanguageSelector'; // Importa el componente LanguageSelector
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'; // Importa el icono de hamburguesa
 import './index.css';
 
 const Navigation = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <nav className="navbar">
-      <ul className="nav-links">
+      <label htmlFor="menu-toggle" className="menu-icon" onClick={toggleMenu}>
+        <FontAwesomeIcon icon={faBars} />
+      </label>
+      <input type="checkbox" id="menu-toggle" className="menu-toggle" checked={showMenu} />
+      <ul className={`nav-links ${showMenu ? 'open' : ''}`}>
         <li>
-          <Link to="/home" className="nav-link">Home</Link>
+          <Link to="/home" className="nav-link" onClick={() => setShowMenu(false)}>Home</Link>
         </li>
         <li>
-          <Link to="/projects" className="nav-link">My work</Link>
+          <Link to="/projects" className="nav-link" onClick={() => setShowMenu(false)}>My work</Link>
         </li>
         <li>
-          <Link to="/experience" className="nav-link">Experience</Link>
+          <Link to="/experience" className="nav-link" onClick={() => setShowMenu(false)}>Experience</Link>
         </li>
         <li>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/contact" className="nav-link" onClick={() => setShowMenu(false)}>Contact</Link>
         </li>
         <li>
           <LanguageSelector />
