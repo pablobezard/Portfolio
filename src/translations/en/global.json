@@ -3,7 +3,8 @@
       "title": "Frontend Developer and Backend Enthusiast",
       "description": "I specialize in creating modern and engaging web applications with a focus on usability and user experience.",
       "aboutTitle": "About me",
-      "aboutText": "Greetings, I'm Pablo Bezard, a seasoned web and mobile developer with a keen focus on elevating user interface design. My expertise lies in translating ideas into seamless digital experiences through meticulous coding and design practices. Beyond the digital realm, I value meaningful connections and enjoy socializing with peers. Whether it's exploring the outdoors or maintaining an active lifestyle at the gym, I find inspiration in a balanced life. My dedication to crafting exceptional applications is matched only by my enthusiasm for staying abreast of the latest technological trends. As a developer, I thrive on the challenges inherent in the ever-evolving landscape of web and mobile development. Join me in the pursuit of excellence as I continue to learn, adapt, and grow in the dynamic world of technology."
+      "aboutText": "Greetings, I'm Pablo Bezard, a seasoned web and mobile developer with a keen focus on elevating user interface design. 🎨 My expertise lies in translating ideas into seamless digital experiences through meticulous coding and design practices. 💻 Beyond the digital realm, I value meaningful connections and enjoy socializing with peers. 🤝 Whether it's exploring the outdoors or maintaining an active lifestyle at the gym, I find inspiration in a balanced life. 🌳 My dedication to crafting exceptional applications is matched only by my enthusiasm for staying abreast of the latest technological trends. 📱 As a developer, I thrive on the challenges inherent in the ever-evolving landscape of web and mobile development. 💡 Join me in the pursuit of excellence as I continue to learn, adapt, and grow in the dynamic world of technology. 🚀"
+
     },
     
     "Experience": {
@@ -13,9 +14,9 @@
           {
             "id": 7,
             "image": "../../assets/images/cognizant.jpeg",
-            "title": "Simulation of Walmart USA's Advanced Software Engineering - Forage",
-            "duration": "November 2023- December 2023",
-            "description": "Completed the Advanced Software Engineering Job Simulation where I solved difficult technical projects for a variety of teams at Walmart. Developed a novel version of a heap data structure in Java for Walmart’s shipping department, showcasing strong problem-solving and algorithmic skills. Designed a UML class diagram for a data processor, considering different operating modes and database connections. Created an entity relationship diagram to design a new database accounting for all requirements provided by Walmart's pet department."
+            "title": "Cognizant's Artificial Intelligence - Forage.",
+            "duration": "December 2023 - January 2024",
+            "description": "At Cognizant, I conducted exploratory data analysis using Python and Google Colab for one of their technology-led clients, Gala Groceries. I prepared a Python module containing code to train a model and output performance metrics for the Machine Learning engineering team. Additionally, I communicated findings and analysis in the form of a PowerPoint presentation to showcase the results to the business."
           },
           {
             "id": 6,

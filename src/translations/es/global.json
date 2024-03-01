@@ -3,7 +3,8 @@
       "title": "Desarrollador Frontend y Entusiasta del Backend",
       "description": "Me especializo en crear aplicaciones web modernas y atractivas con un enfoque en la usabilidad y la experiencia del usuario.",
       "aboutTitle": "Sobre mí",
-      "aboutText": "Saludos, soy Pablo Bezard, un desarrollador web y móvil experimentado con un enfoque en mejorar el diseño de la interfaz de usuario. Mi experiencia radica en traducir ideas en experiencias digitales perfectas a través de prácticas de codificación y diseño meticulosas. Más allá del ámbito digital, valoro las conexiones significativas y disfruto socializar con mis pares. Ya sea explorando la naturaleza o manteniendo un estilo de vida activo en el gimnasio, encuentro inspiración en una vida equilibrada. Mi dedicación a crear aplicaciones excepcionales solo es igualada por mi entusiasmo por mantenerme al tanto de las últimas tendencias tecnológicas. Como desarrollador, prospero en los desafíos inherentes al paisaje en constante evolución del desarrollo web y móvil. Únete a mí en la búsqueda de la excelencia mientras sigo aprendiendo, adaptándome y creciendo en el dinámico mundo de la tecnología."
+      "aboutText": "¡Saludos, soy Pablo Bezard, un desarrollador web y móvil experimentado con un enfoque especial en el diseño de interfaces de usuario! 🎨 Mi experiencia radica en traducir ideas en experiencias digitales perfectas a través de prácticas meticulosas de codificación y diseño. 💻 Más allá del mundo digital, valoro las conexiones significativas y disfruto socializar con mis colegas. 🤝 Ya sea explorando la naturaleza o manteniendo un estilo de vida activo en el gimnasio, encuentro inspiración en una vida equilibrada. 🌳 Mi dedicación a la creación de aplicaciones excepcionales solo es igualada por mi entusiasmo por mantenerme al tanto de las últimas tendencias tecnológicas. 📱 Como desarrollador, prospero en los desafíos inherentes al paisaje siempre cambiante del desarrollo web y móvil. 💡 Únete a mí en la búsqueda de la excelencia mientras sigo aprendiendo, adaptándome y creciendo en el dinámico mundo de la tecnología. 🚀"
+
     },
 
     "Experience": {
@@ -13,9 +14,9 @@
           {
             "id": 7,
             "image": "../../assets/images/cognizant.jpeg",
-            "title": "Simulación de Ingeniería de Software Avanzada de Walmart USA - Forage",
-            "duration": "Noviembre de 2023 - Diciembre de 2023",
-            "description": "Completé la Simulación de Trabajo de Ingeniería de Software Avanzada donde resolví proyectos técnicos difíciles para una variedad de equipos en Walmart. Desarrollé una versión novedosa de una estructura de datos de montón en Java para el departamento de envíos de Walmart, mostrando habilidades sólidas de resolución de problemas y algorítmicas. Diseñé un diagrama de clases UML para un procesador de datos, considerando diferentes modos de operación y conexiones de base de datos. Creé un diagrama de relación de entidades para diseñar una nueva base de datos que contemple todos los requisitos proporcionados por el departamento de mascotas de Walmart."
+            "title": "Inteligencia Artificial de Cognizant - Forage.",
+            "duration": "Diciembre de 2023 - Enero de 2024",
+            "description": "En Cognizant, realicé análisis exploratorio de datos utilizando Python y Google Colab para uno de sus clientes dirigidos por tecnología, Gala Groceries. Preparé un módulo de Python que contenía código para entrenar un modelo y mostrar métricas de rendimiento al equipo de ingeniería de Machine Learning. Además, comuniqué hallazgos y análisis en forma de una presentación de PowerPoint para mostrar los resultados al negocio."
           },
           {
             "id": 6,
@@ -74,4 +75,4 @@
         "messagePrefix": "Mensaje",
         "send": "Enviar"
       }
-    }
+}

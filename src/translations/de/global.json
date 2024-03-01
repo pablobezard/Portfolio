@@ -3,7 +3,8 @@
       "title": "Frontend-Entwickler und Backend-Enthusiast",
       "description": "Ich habe mich auf die Erstellung moderner und ansprechender Webanwendungen mit Schwerpunkt auf Benutzerfreundlichkeit und Benutzererfahrung spezialisiert.",
       "aboutTitle": "Über mich",
-      "aboutText": "Grüße, ich bin Pablo Bezard, ein erfahrener Web- und Mobile-Entwickler mit einem klaren Fokus auf die Verbesserung des Designs der Benutzeroberfläche. Meine Expertise liegt darin, Ideen in nahtlose digitale Erlebnisse durch akribische Codierungs- und Designpraktiken zu übersetzen. Jenseits des digitalen Bereichs schätze ich bedeutungsvolle Verbindungen und genieße es, mit Gleichgesinnten zu sozialisieren. Ob beim Erkunden der Natur oder beim aktiven Lebensstil im Fitnessstudio, ich finde Inspiration in einem ausgewogenen Leben. Meine Hingabe zur Gestaltung außergewöhnlicher Anwendungen wird nur durch meine Begeisterung für das aktuelle technologische Geschehen übertroffen. Als Entwickler blühe ich in den Herausforderungen, die im ständig wandelnden Bereich der Web- und Mobile-Entwicklung liegen. Begleiten Sie mich auf dem Weg zur Exzellenz, während ich weiter lerne, mich anpasse und im dynamischen Technologiewelt wachse."
+      "aboutText": "Grüße, ich bin Pablo Bezard, ein erfahrener Web- und Mobile-Entwickler mit einem klaren Fokus auf die Verbesserung des Designs der Benutzeroberfläche. 🎨 Meine Expertise liegt darin, Ideen in nahtlose digitale Erlebnisse durch akribische Codierungs- und Designpraktiken zu übersetzen. 💻 Jenseits des digitalen Bereichs schätze ich bedeutungsvolle Verbindungen und genieße es, mit Gleichgesinnten zu sozialisieren. 🤝 Ob beim Erkunden der Natur oder beim aktiven Lebensstil im Fitnessstudio, ich finde Inspiration in einem ausgewogenen Leben. 🌳 Meine Hingabe zur Gestaltung außergewöhnlicher Anwendungen wird nur durch meine Begeisterung für das aktuelle technologische Geschehen übertroffen. 📱 Als Entwickler blühe ich in den Herausforderungen, die im ständig wandelnden Bereich der Web- und Mobile-Entwicklung liegen. 💡 Begleiten Sie mich auf dem Weg zur Exzellenz, während ich weiter lerne, mich anpasse und im dynamischen Technologiewelt wachse. 🚀"
+
     },
     "Experience": {
         "title": "Erfahrung",
@@ -12,9 +13,9 @@
           {
             "id": 7,
             "image": "../../assets/images/cognizant.jpeg",
-            "title": "Simulation der fortgeschrittenen Softwaretechnik von Walmart USA - Forage",
-            "duration": "November 2023 - Dezember 2023",
-            "description": "Ich habe die Simulation der fortgeschrittenen Softwaretechnik abgeschlossen, bei der ich schwierige technische Projekte für eine Vielzahl von Teams bei Walmart gelöst habe. Ich habe eine neuartige Version einer Heap-Datenstruktur in Java für die Versandabteilung von Walmart entwickelt, was meine Fähigkeiten im Problemlösen und in der algorithmischen Fähigkeiten zeigt. Ich habe ein UML-Klassendiagramm für einen Datenprozessor entworfen, das verschiedene Betriebsarten und Datenbankverbindungen berücksichtigt. Ich habe ein Entity-Relationship-Diagramm erstellt, um eine neue Datenbank zu entwerfen, die alle Anforderungen des Haustierabteilung von Walmart berücksichtigt."
+            "title": "Künstliche Intelligenz von Cognizant - Forage.",
+            "duration": "Dezember 2023 - Januar 2024",
+            "description": "Bei Cognizant führte ich explorative Datenanalysen mit Python und Google Colab für einen ihrer technologieorientierten Kunden, Gala Groceries, durch. Ich erstellte ein Python-Modul mit Code zur Schulung eines Modells und zur Ausgabe von Leistungsmetriken für das Machine-Learning-Engineering-Team. Darüber hinaus kommunizierte ich die Ergebnisse und Analysen in Form einer PowerPoint-Präsentation, um die Ergebnisse dem Unternehmen zu präsentieren."
           },
           {
             "id": 6,
