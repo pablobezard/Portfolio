@@ -46,7 +46,7 @@ const Navigation = () => {
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2023 PabloBezard. All rights reserved.</p>
+     <p>&copy; 2023 All rights reserved. Designed and programmed by PabloBezard with React.</p>
     </footer>
   );
 };
