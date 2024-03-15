@@ -1,7 +1,9 @@
-import React from 'react';
+
 import './experience.css';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Skills from '../Skills/Skills'; // Importa el componente Skills
 import cognizantImage from '../../assets/images/cognizant.jpeg';
 import imagesImage from '../../assets/images/images.png';
 import aluraImage from '../../assets/images/alura.png';
@@ -27,12 +29,14 @@ const Experience = () => {
 
   return (
     <motion.div
+    
       className="experience"
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 100 }}
       transition={{ duration: 0.5 }}
     >
+      <Skills /> {/* Aquí colocas el componente Skills */}
       <h2>{t('Experience.title')}</h2>
       <div className="experience-items">
         {experiences.map((experience) => (
@@ -50,6 +54,7 @@ const Experience = () => {
         ))}
       </div>
     </motion.div>
+    
   );
 };
 

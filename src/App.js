@@ -27,9 +27,6 @@ const Navigation = () => {
           <Link to="/home" className="nav-link" onClick={() => setShowMenu(false)}>Home</Link>
         </li>
         <li>
-          <Link to="/projects" className="nav-link" onClick={() => setShowMenu(false)}>My work</Link>
-        </li>
-        <li>
           <Link to="/experience" className="nav-link" onClick={() => setShowMenu(false)}>Experience</Link>
         </li>
         <li>
@@ -62,7 +59,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/projects" element={<MyWork />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
