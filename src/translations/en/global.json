@@ -14,7 +14,7 @@
           {
             "id": 7,
             "image": "../../assets/images/cognizant.jpeg",
-            "title": "Cognizant's Artificial Intelligence - Forage.",
+            "title": "Cognizant's Artificial Intelligence - Forage",
             "duration": "December 2023 - January 2024",
             "description": "At Cognizant, I conducted exploratory data analysis using Python and Google Colab for one of their technology-led clients, Gala Groceries. I prepared a Python module containing code to train a model and output performance metrics for the Machine Learning engineering team. Additionally, I communicated findings and analysis in the form of a PowerPoint presentation to showcase the results to the business."
           },
@@ -28,14 +28,14 @@
           {
             "id": 5,
             "image": "../../assets/images/alura.png",
-            "title": "FrontEnd React - G5 ONE oracle course",
+            "title": "FrontEnd React - G5 ONE oracle Course",
             "duration": "March 2023 - November 2023",
             "description": "As part of my commitment to professional growth, I am currently undertaking an online course on the Alura LATAM platform, sponsored by ONE Oracle. This course focuses on web development using technologies such as HTML, CSS, JavaScript, and also covers additional topics like Business Model Canvas, Lean Startup, and Responsive Layouts. Throughout this training, I've gained insights into crafting modern websites and delved into agile methodologies and business approaches for digital product development. This course has allowed me to broaden my perspective and acquire technical and business skills to effectively tackle web projects."
           },
           {
             "id": 4,
             "image": "../../assets/images/educacionIt.png",
-            "title": "FrontEnd React - Educación IT course",
+            "title": "FrontEnd React - Educación IT Course",
             "duration": "March 2023 - November 2023",
             "description": "In my continuous pursuit to enhance my programming skills, I decided to enroll in an online course provided by Telecom Digitalers Argentina in collaboration with Educación IT. This course focuses on FrontEnd development using React and has been a valuable opportunity to gain knowledge and skills in creating modern web applications. Through this training, I've learned to build interactive and dynamic user interfaces using technologies like React, HTML, and CSS. This course has been instrumental in deepening my understanding of React's fundamental principles and enhancing my ability to create reusable components and optimize the performance of my applications."
           },
